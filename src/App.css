@@ -23,3 +23,30 @@
 
   color: white !important;   
 }
+
+@media screen and (max-width: 1440px) {
+
+#message {
+    /* margin-right: -8rem; */
+    margin-right: -10%;
+    margin-left: 8%;
+}
+.wrapper {
+  padding: 0px !important;
+}
+}
+@media screen and (min-width: 1441px)and (max-width: 1700px) {
+
+  #message {
+    margin-right: -12%;
+    margin-left: 15%;
+  }
+  .card{
+    margin: 0px;
+    margin-top: 2%;
+
+  }
+ 
+ 
+
+  }

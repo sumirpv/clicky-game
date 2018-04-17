@@ -45,6 +45,7 @@ clickHandler =(id)=>{
   }else if( score <11){
     clickedSpace[0].click =true;
     score++;
+    // topScore++;
     message="You guessed Correctly!";
     if( score >topScore){
       topScore = score;
@@ -57,6 +58,7 @@ clickHandler =(id)=>{
       message,
       space ,
       score,
+      topScore
    })
   }else{
     clickedSpace[0].click =true;
