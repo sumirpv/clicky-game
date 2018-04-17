@@ -1,6 +1,6 @@
 .wrapper {
     padding-top: 50px;
-    background: #ECEFF1;
+    background: #82ccbf;
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -8,5 +8,7 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+    background-image: url("https://wallpaperscraft.com/image/space_background_blue_dots_73340_2048x2048.jpg");
+    
   }
   

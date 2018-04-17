@@ -32,7 +32,7 @@ clickHandler =(id)=>{
     console.log("score", score)
     console.log("tscore", topScore);
     score=0;
-    message="You guessed incorrectly! Start over";
+    message="You guessed incorrectly!";
     for (let i = 0 ; i < space.length ; i++){
       space[i].click = false;
       }
@@ -129,22 +129,23 @@ clickHandler =(id)=>{
   // Map over this.state.space and render a SpaceCard component for each friend object
   render() {
     return (
-      <Wrapper>
+      <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <h1 className="navbar-brand" ><h1>Clicky Game </h1></h1>
+            <h1 className="navbar-brand" ><h1 id="game">Clicky Game </h1></h1>
 
             <div className="collapse navbar-collapse" id="navbarText">
 
-              <h1>{this.state.message}     </h1>
-              <h1 className="navbar-text">
+              <h1 id="message">{this.state.message}     </h1>
+              <h1 className="navbar-text score">
                Score : { this.state.score} 
               </h1>
-              <h1 className="navbar-text">
+              <h1 className="navbar-text score1">
                Top Score :  { this.state.topScore} 
               </h1>
             </div>
           </nav>
-        <Title>space List</Title>
+          <Wrapper>
+        <Title>Space and Beyond</Title>
         {this.state.space.map(item => (
           <SpaceCard className="spaces" clickHandler={this.clickHandler}
             id={item.id}
@@ -153,6 +154,8 @@ clickHandler =(id)=>{
           />
         ))}
       </Wrapper>
+      </div>
+
     );
   }
 }
