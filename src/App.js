@@ -45,9 +45,9 @@ clickHandler =(id)=>{
   }else if( score <11){
     clickedSpace[0].click =true;
     score++;
-    // topScore++;
+     topScore;
     message="You guessed Correctly!";
-    if( score >topScore){
+    if( score > topScore){
       topScore = score;
       this.setState({
         score
