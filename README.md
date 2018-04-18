@@ -22,3 +22,8 @@ The application keeps track of the users Best Score, and updates it when the use
  ## Link
 
 [My Clicky Game  ](https://sumirpv.github.io/clicky-game/)
+
+## Screen shots:
+![image](https://user-images.githubusercontent.com/26572619/38905527-0e03c6cc-4266-11e8-8049-2a9386b7eefa.png)
+
+![image](https://user-images.githubusercontent.com/26572619/38905531-1739d984-4266-11e8-9119-8ee7430d1c1a.png)
